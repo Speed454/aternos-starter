@@ -1,5 +1,5 @@
 from flask import Flask, render_template_string
-from aternos.account import Account
+from pyaternos import Account
 
 app = Flask(__name__)
 
